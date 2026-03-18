@@ -6,11 +6,9 @@ The workflow includes data preprocessing, feature engineering, model training, e
 
 #### Multiple regression models were trained and compared:
 
-Linear Regression (baseline model)
-
-Random Forest Regressor
-
-XGBoost Regressor
+1. Linear Regression (baseline model)
+2. Random Forest Regressor
+3. XGBoost Regressor
 
 Model performance was evaluated using RMSE, MAE, and R² score, where XGBoost achieved the best performance, effectively capturing nonlinear relationships between vehicle attributes and price. Feature importance and SHAP analysis were used to interpret model predictions.
 

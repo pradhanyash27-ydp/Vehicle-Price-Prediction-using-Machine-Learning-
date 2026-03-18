@@ -1,6 +1,7 @@
 # Vehicle-Price-Prediction-using-Machine-Learning-
 
 This project develops an end-to-end machine learning pipeline for predicting vehicle prices using structured vehicle data. The model estimates the market value of a car based on attributes such as manufacturer, model, year, mileage, engine specifications, fuel type, transmission, and other vehicle features.
+
 The workflow includes data preprocessing, feature engineering, model training, evaluation, and explainability. Key preprocessing steps include handling missing values, creating engineered features such as vehicle age and log-transformed mileage, limiting high-cardinality categorical variables, and extracting textual information using TF-IDF vectorization.
 Multiple regression models were trained and compared:
 Linear Regression (baseline model)
